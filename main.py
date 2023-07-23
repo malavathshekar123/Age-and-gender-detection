@@ -21,14 +21,14 @@ def faceBox(faceNet,frame):
     return frame, bboxs
 
 
-faceProto = "C:/Users/rahul/OneDrive/Desktop/Age and Gender detection/opencv_face_detector.pbtxt"
-faceModel = "C:/Users/rahul/OneDrive/Desktop/Age and Gender detection/opencv_face_detector_uint8.pb"
+faceProto = r"C:\Users\User\Desktop\Gender-and-Age-Detection-main\Gender-and-Age-Detection-main/opencv_face_detector.pbtxt"
+faceModel = r"C:\Users\User\Desktop\Gender-and-Age-Detection-main\Gender-and-Age-Detection-main/opencv_face_detector_uint8.pb"
 
-ageProto = "C:/Users/rahul/OneDrive/Desktop/Age and Gender detection/age_deploy.prototxt"
-ageModel = "C:/Users/rahul/OneDrive/Desktop/Age and Gender detection/age_net.caffemodel"
+ageProto = r"C:\Users\User\Desktop\Gender-and-Age-Detection-main\Gender-and-Age-Detection-main/age_deploy.prototxt"
+ageModel = r"C:\Users\User\Desktop\Gender-and-Age-Detection-main\Gender-and-Age-Detection-main/age_net.caffemodel"
 
-genderProto = "C:/Users/rahul/OneDrive/Desktop/Age and Gender detection/gender_deploy.prototxt"
-genderModel = "C:/Users/rahul/OneDrive/Desktop/Age and Gender detection/gender_net.caffemodel"
+genderProto = r"C:\Users\User\Desktop\Gender-and-Age-Detection-main\Gender-and-Age-Detection-main/gender_deploy.prototxt"
+genderModel = r"C:\Users\User\Desktop\Gender-and-Age-Detection-main\Gender-and-Age-Detection-main/gender_net.caffemodel"
 
 
 
